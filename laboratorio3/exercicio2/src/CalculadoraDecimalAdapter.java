@@ -23,7 +23,6 @@ public class CalculadoraDecimalAdapter implements Calculadora {
 
     @Override
     public int multiplicar(int a, int b) {
-        // Multiplicação é feita diretamente com números decimais
         return a * b;
     }
 }
